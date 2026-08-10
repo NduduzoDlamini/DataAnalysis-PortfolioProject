@@ -1,6 +1,6 @@
-select * from DataAnalysis.[dbo].rides;
-select * from DataAnalysis.[dbo].stations;
-select * from DataAnalysis.[dbo].users;
+--select * from DataAnalysis.[dbo].rides;
+--select * from DataAnalysis.[dbo].stations;
+--select * from DataAnalysis.[dbo].users;
 
 --Count table rows
 SELECT
