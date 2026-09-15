@@ -109,4 +109,4 @@ After cleaning:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[your-username]/nashville-housing-sql-cleaning.git
+   git clone https://github.com/NduduzoDlamini/nashville-housing-sql-cleaning.git
