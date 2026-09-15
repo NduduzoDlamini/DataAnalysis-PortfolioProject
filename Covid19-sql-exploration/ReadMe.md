@@ -117,6 +117,28 @@ This project is part of my data analytics portfolio.
 
 ## 🚀 How to Use
 
-1. Clone this repository:
+Follow these steps to set up the project environment and run the analysis queries locally.
+
+### 📋 Prerequisites
+
+Before running the script, ensure you have:
+1. **Microsoft SQL Server** and **SQL Server Management Studio (SSMS)** installed.
+2. A database named **`PortfolioProject`** created in your server instance.
+3. The **CovidDeaths** and **CovidVaccinations** datasets imported as tables inside your `PortfolioProject` database. 
+   *(Note: Ensure your tables are named exactly `CovidDeaths` and `CovidVaccinations` for the script to reference them correctly).*
+
+### 🛠️ Step-by-Step Setup
+
+1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/[your-username]/covid19-sql-exploration.git
+   git clone https://github.com
+   ```
+
+2. **Navigate into the project directory** where the SQL script lives:
+   ```bash
+   cd DataAnalysis-PortfolioProject/Covid19-sql-exploration
+   ```
+
+3. **Open the script** named `CovidPortfolio.sql` in SSMS.
+
+4. **Execute the queries** sequentially to explore the data and generate the analytics views.
