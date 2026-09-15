@@ -161,7 +161,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 1: BIKE REBALANCING RECOMMENDATIONS
+-- ENHANCEMENT 1: BIKE REBALANCING RECOMMENDATIONS
 -- Identify stations with the largest imbalance between arrivals and departures.
 -- Uses ABS() to find biggest imbalances in either direction (surplus or shortage).
 -- Action column tells operations team what to do.
@@ -208,7 +208,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 2: WEEKDAY VS WEEKEND USAGE PATTERNS
+-- ENHANCEMENT 2: WEEKDAY VS WEEKEND USAGE PATTERNS
 -- Compare ride volumes, distances, and durations on weekdays vs weekends.
 -- ================================================================================
 --SELECT
@@ -231,7 +231,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 3: HOURLY PATTERN BY WEEKDAY VS WEEKEND
+-- ENHANCEMENT 3: HOURLY PATTERN BY WEEKDAY VS WEEKEND
 -- Compare peak hours on weekdays vs weekends to reveal usage differences.
 -- ================================================================================
 --SELECT
@@ -244,7 +244,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 4: USER COHORT RETENTION ANALYSIS
+-- ENHANCEMENT 4: USER COHORT RETENTION ANALYSIS
 -- Group users by the month they signed up (cohort), then track how many 
 -- remained active in subsequent months.
 -- ================================================================================
@@ -281,7 +281,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 5: REVENUE / COST ANALYSIS
+-- ENHANCEMENT 5: REVENUE / COST ANALYSIS
 -- ================================================================================
 --WITH ride_costs AS (
 --    SELECT
@@ -316,7 +316,7 @@ ORDER BY signup_month DESC;
 
 
 -- ================================================================================
--- ⭐ ENHANCEMENT 6: MONTHLY REVENUE TREND
+-- ENHANCEMENT 6: MONTHLY REVENUE TREND
 -- Track estimated revenue by month to spot growth or seasonality.
 ---- ================================================================================
 --WITH ride_costs AS (
