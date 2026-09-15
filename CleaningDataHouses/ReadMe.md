@@ -107,6 +107,29 @@ After cleaning:
 
 ## 🚀 How to Use
 
-1. Clone this repository:
+Follow these steps to set up the project environment and run the data cleaning queries locally.
+
+### 📋 Prerequisites
+
+Before running the script, ensure you have:
+1. **Microsoft SQL Server** and **SQL Server Management Studio (SSMS)** installed.
+2. A database named **`PortfolioProject`** created in your server instance.
+3. The **Nashville Housing dataset** imported as a table named **`Houses`** inside your `PortfolioProject` database. 
+   *(Note: Ensure your table is named exactly `Houses` for the script to reference it correctly).*
+
+### 🛠️ Step-by-Step Setup
+
+1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/NduduzoDlamini/nashville-housing-sql-cleaning.git
+   git clone https://github.com
+   ```
+
+2. **Navigate into the project directory** where the data cleaning script lives:
+   ```bash
+   cd DataAnalysis-PortfolioProject/Nashville-housing-sql-cleaning
+   ```
+   *(Note: Replace `Nashville-housing-sql-cleaning` with the exact folder name you used for this project inside your repository).*
+
+3. **Open the script** in SSMS.
+
+4. **Execute the queries** sequentially to transform and clean the dataset.
