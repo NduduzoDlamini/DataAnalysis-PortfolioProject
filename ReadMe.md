@@ -52,7 +52,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 ### 1. 🏠 Nashville Housing Data Cleaning
 
-**📄 File:** [`CleaningDataHouses.sql`](./CleaningDataHouses.sql)
+**📄 File:** [`CleaningDataHouses.sql`](./CleaningDataHouses/CleaningDataHouses.sql)
 
 **Objective:** Clean and standardize a raw housing dataset to make it analysis-ready.
 
