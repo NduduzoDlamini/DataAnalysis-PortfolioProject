@@ -9,16 +9,14 @@ Each project uses **real-world datasets** and follows industry best practices �
 ## 👋 About Me
 
 **Nduduzo Dlamini** — Aspiring Data Analyst  
-📍 Eswatini  
-📧 [nduduzodlamini5@gmail.com]  
-🔗 [LinkedIn](linkedin.com/in/nduduzo-dlamini-66035324b)  
-🐙 [GitHub](https://github.com/NduduzoDlamini)
+
+I'm passionate about turning messy data into clear, actionable insights. This portfolio reflects my hands-on practice with **SQL Server (T-SQL)** applied to diverse industries: real estate, public health, transportation, and food service.
+
 
 # 👤 Contact Information
 
-**Nduduzo Dlamini** — Aspiring Data Analyst  
 📍 Eswatini  
-📧 [your.email@example.com](mailto:your.email@example.com)  
+📧 [eMailMe](mailto:nduduzodalini5@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com)  
 🐙 [GitHub](https://github.com)
 
@@ -47,7 +45,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 | # | Project | Domain | Key Skills |
 |---|---------|--------|------------|
-| 1 | [🏠 Nashville Housing Data Cleaning]([#1-🏠-nashville-housing-data-cleaning](https://github.com/NduduzoDlamini/DataAnalysis-PortfolioProject/tree/main/CleaningDataHouses)) | Real Estate | Data cleaning, string parsing, deduplication |
+| 1 | [[🏠 Nashville Housing Data Cleaning](./CleaningDataHouses)](#1-🏠-nashville-housing-data-cleaning) | Real Estate | Data cleaning, string parsing, deduplication |
 | 2 | [🦠 COVID-19 Data Exploration](#2-🦠-covid-19-data-exploration) | Public Health | Window functions, CTEs, temp tables, views |
 | 3 | [🚲 Bike Shop Analysis](#3-🚲-bike-shop-analysis) | Retail / Transportation | UNION, joins, calculated business metrics |
 | 4 | [🍕 Pizza Sales Analysis](#4-🍕-pizza-sales-analysis) | Food & Beverage | KPIs, date functions, ranking |
