@@ -1,7 +1,7 @@
 /***********************************************************************************
     Project: Nashville Housing Data Cleaning
-    Author: [Your Name]
-    Date: [Date]
+    Author: [Nduduzo Dlamini]
+    Date: []
     Description: This script cleans and standardizes the Nashville Housing dataset 
                  by handling missing values, splitting addresses, standardizing 
                  categorical fields, removing duplicates, and dropping unused columns.
