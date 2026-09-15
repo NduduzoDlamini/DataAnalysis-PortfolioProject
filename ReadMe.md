@@ -47,7 +47,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 | # | Project | Domain | Key Skills |
 |---|---------|--------|------------|
-| 1 | [🏠 Nashville Housing Data Cleaning](#1-🏠-nashville-housing-data-cleaning) | Real Estate | Data cleaning, string parsing, deduplication |
+| 1 | [🏠 Nashville Housing Data Cleaning]([#1-🏠-nashville-housing-data-cleaning](https://github.com/NduduzoDlamini/DataAnalysis-PortfolioProject/tree/main/CleaningDataHouses)) | Real Estate | Data cleaning, string parsing, deduplication |
 | 2 | [🦠 COVID-19 Data Exploration](#2-🦠-covid-19-data-exploration) | Public Health | Window functions, CTEs, temp tables, views |
 | 3 | [🚲 Bike Shop Analysis](#3-🚲-bike-shop-analysis) | Retail / Transportation | UNION, joins, calculated business metrics |
 | 4 | [🍕 Pizza Sales Analysis](#4-🍕-pizza-sales-analysis) | Food & Beverage | KPIs, date functions, ranking |
