@@ -44,10 +44,10 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 | # | Project | Domain | Key Skills |
 |---|---------|--------|------------|
 | 1 | [[🏠 Nashville Housing Data Cleaning](./CleaningDataHouses)] | Real Estate | Data cleaning, string parsing, deduplication |
-| 2 | [🦠 COVID-19 Data Exploration](./Covid19-sql-exploration) | Public Health | Window functions, CTEs, temp tables, views |
-| 3 | [🚲 Bike Shop Analysis](./TheBikeShop) | Retail / Transportation | UNION, joins, calculated business metrics |
-| 4 | [🍕 Pizza Sales Analysis](./PizzaSales) | Food & Beverage | KPIs, date functions, ranking |
-| 5 | [🚴 E-Bike Sharing Analysis](./SQL_EBIKE) | Urban Mobility | Cohorts, net flow, rebalancing, retention |
+| 2 | [[🦠 COVID-19 Data Exploration](./Covid19-sql-exploration)] | Public Health | Window functions, CTEs, temp tables, views |
+| 3 | [[🚲 Bike Shop Analysis](./TheBikeShop)] | Retail / Transportation | UNION, joins, calculated business metrics |
+| 4 | [[🍕 Pizza Sales Analysis](./PizzaSales)] | Food & Beverage | KPIs, date functions, ranking |
+| 5 | [[🚴 E-Bike Sharing Analysis](./SQL_EBIKE)] | Urban Mobility | Cohorts, net flow, rebalancing, retention |
 
 ---
 
