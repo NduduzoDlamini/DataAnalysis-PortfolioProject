@@ -17,11 +17,8 @@ I'm passionate about turning messy data into clear, actionable insights. This po
 # 👤 Contact Information
 
 📧 [eMail](mailto:nduduzodlamini5@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/nduduzo-dlamini-66035324b) *(Ctrl + Click / Cmd + Click to open in a new tab)*
+🔗 [LinkedIn](https://www.linkedin.com/in/nduduzo-dlamini-66035324b) *(Ctrl + Click / Cmd + Click to open in a new tab)*  
 🐙 [GitHub](https://github.com/NduduzoDlamini)
-
-
-I'm passionate about turning messy data into clear, actionable insights. This portfolio reflects my hands-on practice with **SQL Server (T-SQL)** applied to diverse industries: real estate, public health, transportation, and food service.
 
 ---
 
