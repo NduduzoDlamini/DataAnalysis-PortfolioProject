@@ -8,7 +8,7 @@ Each project uses **real-world datasets** and follows industry best practices �
 
 ## 👋 About Me
 
-**Nduduzo Dlamini** — Aspiring Data Analyst  
+**Nduduzo Dlamini** — Data Analyst  
 📍 Eswatini   
 
 I'm passionate about turning messy data into clear, actionable insights. This portfolio reflects my hands-on practice with **SQL Server (T-SQL)** applied to diverse industries: real estate, public health, transportation, and food service.
