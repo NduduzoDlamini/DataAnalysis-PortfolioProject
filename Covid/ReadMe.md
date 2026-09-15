@@ -119,4 +119,4 @@ This project is part of my data analytics portfolio.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[your-username]/covid19-sql-exploration.git
+   git clone https://github.com/NduduzoDlamini/covid19-sql-exploration.git
