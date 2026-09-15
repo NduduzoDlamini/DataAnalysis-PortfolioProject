@@ -70,7 +70,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 ### 2. 🦠 COVID-19 Data Exploration
 
-**📄 File:** [`Covid Portfolio.sql`](./Covid%20Portfolio.sql)
+**📄 File:** [`Covid Portfolio.sql`](./Covid19-sql-exploration/CovidPortfolio.sql)
 
 **Objective:** Explore global COVID-19 data to uncover infection rates, death counts, and vaccination trends.
 
@@ -88,7 +88,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 ### 3. 🚲 Bike Shop Analysis
 
-**📄 File:** [`The Bike Shop.sql`](./The%20Bike%20Shop.sql)
+**📄 File:** [`The Bike Shop.sql`](./TheBikeShop/TheBikeShop.sql)
 
 **Objective:** Combine two years of bike share data and calculate revenue and profit per hour.
 
@@ -104,7 +104,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 ### 4. 🍕 Pizza Sales Analysis
 
-**📄 File:** [`PizzaSales.sql`](./PizzaSales.sql)
+**📄 File:** [`PizzaSales.sql`](./PizzaSales/PizzaSales.sql)
 
 **Objective:** Analyze pizza sales to identify KPIs, trends, and best/worst sellers.
 
@@ -121,7 +121,7 @@ This repository contains **six SQL portfolio projects**, each focused on a diffe
 
 ### 5. 🚴 E-Bike Sharing Analysis
 
-**📄 File:** [`SQL_EBIKE.sql`](./SQL_EBIKE.sql)
+**📄 File:** [`SQL_EBIKE.sql`](./SQL_EBIKE/SQL_EBIKE.sql)
 
 **Objective:** Full EDA on an e-bike sharing dataset — from data quality to retention analysis.
 
