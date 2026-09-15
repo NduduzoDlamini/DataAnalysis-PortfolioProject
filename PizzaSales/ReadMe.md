@@ -97,12 +97,5 @@ This project is part of my data analytics portfolio and is designed to mirror re
 - 🏆 **Top sellers** are usually large-size classic pizzas
 - 📉 **Worst sellers** are typically specialty or XL-sized pizzas
 
-*(Exact results depend on your dataset.)*
 
----
 
-## 🚀 How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/[your-username]/pizza-sales-sql-analysis.git
