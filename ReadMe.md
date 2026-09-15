@@ -11,7 +11,7 @@ Each project uses **real-world datasets** and follows industry best practices �
 **Nduduzo Dlamini** — Data Analyst  
 📍 Eswatini   
 
-I'm passionate about turning messy data into clear, actionable insights. This portfolio reflects my hands-on practice with **SQL Server (T-SQL)** applied to diverse industries: real estate, public health, transportation, and food service.
+I am a Data Analyst passionate about turning messy data into clear, actionable business insights. This portfolio showcases my hands-on experience using Microsoft SQL Server (T-SQL) to solve data challenges across diverse industries, including Real Estate, Public Health, Transportation, and Food Service.
 
 
 # 👤 Contact Information
