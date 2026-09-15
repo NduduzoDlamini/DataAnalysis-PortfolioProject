@@ -15,10 +15,11 @@ I'm passionate about turning messy data into clear, actionable insights. This po
 
 
 # 👤 Contact Information
-
+*(Ctrl + Click / Cmd + Click to open in a new tab)*    
 📧 [eMail](mailto:nduduzodlamini5@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/nduduzo-dlamini-66035324b) *(Ctrl + Click / Cmd + Click to open in a new tab)*  
-🐙 [GitHub](https://github.com/NduduzoDlamini)
+🔗 [LinkedIn](https://www.linkedin.com/in/nduduzo-dlamini-66035324b)   
+🐙 [GitHub](https://github.com/NduduzoDlamini)  
+🌐 [Portfolio Website](https://nduduzodlamini.com)
 
 ---
 
