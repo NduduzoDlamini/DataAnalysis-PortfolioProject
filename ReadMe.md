@@ -18,7 +18,7 @@ I'm passionate about turning messy data into clear, actionable insights. This po
 
  
 📧 [eMail](mailto:nduduzodalini5@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com)  
+🔗 [LinkedIn][(https://linkedin.com](https://www.linkedin.com/in/nduduzo-dlamini-66035324b/)  
 🐙 [GitHub](https://github.com/NduduzoDlamini)
 
 
