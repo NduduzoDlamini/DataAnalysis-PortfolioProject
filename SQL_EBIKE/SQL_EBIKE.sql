@@ -26,9 +26,9 @@
 -- Get a quick overview of how many rows exist in each table.
 -- ================================================================================
 SELECT
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides)    AS Ride_Count,
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides) AS Ride_Count,
     (SELECT COUNT(*) FROM DataAnalysis.[dbo].stations) AS Station_Count,
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].users)    AS Users_Count;
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].users) AS Users_Count;
 
 
 -- ================================================================================
@@ -36,10 +36,10 @@ SELECT
 -- Count NULLs in key columns of the rides table to assess data quality.
 -- ================================================================================
 SELECT 
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE ride_id IS NULL)     AS null_ride_id,
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE user_id IS NULL)     AS null_user_id,
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE start_time IS NULL)  AS null_start_time,
-    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE end_time IS NULL)    AS null_end_time;
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE ride_id IS NULL) AS null_ride_id,
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE user_id IS NULL) AS null_user_id,
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE start_time IS NULL) AS null_start_time,
+    (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides WHERE end_time IS NULL) AS null_end_time;
 
 
 -- ================================================================================
@@ -47,12 +47,12 @@ SELECT
 -- Min, max, and average of trip distance and duration.
 -- ================================================================================
 SELECT
-    MIN(distance_km)                                        AS min_distance,
-    MAX(distance_km)                                        AS max_distance,
-    AVG(CAST(distance_km AS DECIMAL(10, 2)))                AS Avg_distance,
-    MIN(DATEDIFF(MINUTE, start_time, end_time))             AS Min_duration_mins,
-    MAX(DATEDIFF(MINUTE, start_time, end_time))             AS Max_duration_mins,
-    AVG(DATEDIFF(MINUTE, start_time, end_time))             AS Avg_duration_mins
+    MIN(distance_km) AS min_distance,
+    MAX(distance_km) AS max_distance,
+    AVG(CAST(distance_km AS DECIMAL(10, 2))) AS Avg_distance,
+    MIN(DATEDIFF(MINUTE, start_time, end_time)) AS Min_duration_mins,
+    MAX(DATEDIFF(MINUTE, start_time, end_time)) AS Max_duration_mins,
+    AVG(DATEDIFF(MINUTE, start_time, end_time)) AS Avg_duration_mins
 FROM DataAnalysis.[dbo].rides;
 
 
@@ -62,9 +62,9 @@ FROM DataAnalysis.[dbo].rides;
 -- ================================================================================
 SELECT 
     (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides 
-     WHERE DATEDIFF(MINUTE, start_time, end_time) < 2)      AS Short_duration_trips,
+     WHERE DATEDIFF(MINUTE, start_time, end_time) < 2) AS Short_duration_trips,
     (SELECT COUNT(*) FROM DataAnalysis.[dbo].rides 
-     WHERE ROUND(distance_km, 2) = 0)                       AS Zero_distance_trips;
+     WHERE ROUND(distance_km, 2) = 0) AS Zero_distance_trips;
 
 
 -- ================================================================================
@@ -73,9 +73,9 @@ SELECT
 -- ================================================================================
 SELECT
     u.membership_level,
-    COUNT(r.ride_id)                                        AS total_rides,
-    AVG(CAST(r.distance_km AS DECIMAL(10, 2)))              AS Avg_distance,
-    AVG(DATEDIFF(MINUTE, r.start_time, r.end_time))         AS Avg_duration_mins
+    COUNT(r.ride_id) AS total_rides,
+    AVG(CAST(r.distance_km AS DECIMAL(10, 2))) AS Avg_distance,
+    AVG(DATEDIFF(MINUTE, r.start_time, r.end_time)) AS Avg_duration_mins
 FROM DataAnalysis.[dbo].rides AS r
 JOIN DataAnalysis.[dbo].users AS u
     ON r.user_id = u.user_id
@@ -88,8 +88,8 @@ ORDER BY total_rides DESC;
 -- Count rides by hour of day to identify peak usage times.
 -- ================================================================================
 SELECT 
-    DATEPART(HOUR, start_time)  AS hour_of_day,
-    COUNT(*)                    AS ride_count
+    DATEPART(HOUR, start_time) AS hour_of_day,
+    COUNT(*) AS ride_count
 FROM DataAnalysis.[dbo].rides
 GROUP BY DATEPART(HOUR, start_time)
 ORDER BY hour_of_day;
@@ -215,10 +215,10 @@ ORDER BY signup_month DESC;
 --    CASE 
 --        WHEN DATEPART(WEEKDAY, start_time) IN (1, 7) THEN 'Weekend'
 --        ELSE 'Weekday'
---    END                                                     AS day_type,
---    COUNT(*)                                                AS total_rides,
---    AVG(CAST(distance_km AS DECIMAL(10, 2)))                AS Avg_distance,
---    AVG(DATEDIFF(MINUTE, start_time, end_time))             AS Avg_duration_mins,
+--    END AS day_type,
+--    COUNT(*) AS total_rides,
+--    AVG(CAST(distance_km AS DECIMAL(10, 2))) AS Avg_distance,
+--    AVG(DATEDIFF(MINUTE, start_time, end_time)) AS Avg_duration_mins,
 --    CAST(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER () 
 --         AS DECIMAL(5, 2))                                  AS pct_of_total_rides
 --FROM DataAnalysis.[dbo].rides
@@ -303,10 +303,10 @@ ORDER BY signup_month DESC;
 --)
 --SELECT
 --    membership_level,
---    COUNT(*)                                                    AS total_rides,
---    SUM(duration_mins)                                          AS total_minutes,
---    CAST(SUM(estimated_revenue) AS DECIMAL(12, 2))              AS total_revenue,
---    CAST(AVG(estimated_revenue) AS DECIMAL(10, 2))              AS avg_revenue_per_ride,
+--    COUNT(*) AS total_rides,
+--    SUM(duration_mins) AS total_minutes,
+--    CAST(SUM(estimated_revenue) AS DECIMAL(12, 2)) AS total_revenue,
+--    CAST(AVG(estimated_revenue) AS DECIMAL(10, 2)) AS avg_revenue_per_ride,
 --    CAST(SUM(estimated_revenue) * 100.0 
 --         / SUM(SUM(estimated_revenue)) OVER () 
 --         AS DECIMAL(5, 2))                                      AS pct_of_total_revenue
@@ -339,7 +339,7 @@ ORDER BY signup_month DESC;
 --)
 --SELECT
 --    ride_month,
---    COUNT(*)                                        AS total_rides,
+--    COUNT(*) AS total_rides,
 --    CAST(SUM(estimated_revenue) AS DECIMAL(12, 2))  AS monthly_revenue,
 --    CAST(AVG(estimated_revenue) AS DECIMAL(10, 2))  AS avg_revenue_per_ride
 --FROM ride_costs
